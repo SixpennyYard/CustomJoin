@@ -1,0 +1,12 @@
+---
+name: CustomJoin
+version: 1.0.0
+main: SixpennyYard\CustomJoin\CustomJoin
+api: 4.2.0
+src-namespace-prefix: SixpennyYard\CustomJoin
+
+permissions:
+  use.wc:
+    default: op
+    description: use my command
+...

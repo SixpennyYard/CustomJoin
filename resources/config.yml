@@ -1,0 +1,22 @@
+#don't touch this
+version: 1.0.0
+
+#
+# Plugin by _-:[SixpennyYard339]:-_
+#
+
+#Join message:
+#{player} = the player who join  //  {break} = break a line
+Message-Join: "§2[+]§r {player}"
+
+#Quit message
+#
+Message-Quit: "§4[-] {player}"
+
+#Message for First join
+#
+First-Join: "§8Welcome§5 {player} §8who joined us for the 1st time !"
+
+#Welcome message -> command /bv player
+#{jplayer} = the selected player here        ^|^
+Welcome-Message: "§1Welcome §3{jplayer}§1 to §5My Server§1 !"

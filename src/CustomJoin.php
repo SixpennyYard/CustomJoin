@@ -39,7 +39,6 @@ class CustomJoin extends PluginBase implements Listener {
     }
 
     public function onEnable(): void {
-        $this->getLogger()->info("§1Plugin by SixpennyYard339");
         
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
         

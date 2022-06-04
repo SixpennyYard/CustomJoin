@@ -4,11 +4,7 @@ namespace SixpennyYard\CustomJoin;
 
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
-use pocketmine\plugin\Plugin;
 use SixpennyYard\CustomJoin\Main;
-use pocketmine\player\Player;
-use pocketmine\utils\Config;
-use pocketmine\utils\TextFormat;
 
 class bv extends Command{
     

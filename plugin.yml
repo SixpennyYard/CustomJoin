@@ -8,5 +8,5 @@ src-namespace-prefix: SixpennyYard\CustomJoin
 permissions:
   customjoin.wc:
     default: op
-    description: Use welcome command
+    description: send a welcome message
 ...

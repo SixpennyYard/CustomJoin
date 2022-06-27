@@ -4,16 +4,17 @@ namespace SixpennyYard\CustomJoin;
 
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
+use pocketmine\plugin\PluginOwned;
 use SixpennyYard\CustomJoin\Main;
 
-class bv extends Command{
+class bv extends Command implements PuginOwned{
     
     private $plugin;
     
     public function __construct() {
         
         parent::__construct("wc", "send a welcome message", "§cusage: /wc <player> or /bv <player>");
-        $this->setPermission('use.wc');
+        $this->setPermission('customjoin.wc');
         
     }
     public function execute(CommandSender $sender, string $commandLabel, array $args)    {
